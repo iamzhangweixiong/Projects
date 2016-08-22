@@ -59,7 +59,6 @@ public class SimplePathView extends View {
         mPaint.setAntiAlias(true);
 
         mPath = new Path();
-//        mPath.moveTo(X1, Y1);
 
     }
 
