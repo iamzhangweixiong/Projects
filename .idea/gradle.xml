@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Bezier" />
+            <option value="$PROJECT_DIR$/TouchLevel" />
             <option value="$PROJECT_DIR$/WeatherAnimation" />
             <option value="$PROJECT_DIR$/Z_Utils" />
             <option value="$PROJECT_DIR$/app" />
@@ -19,6 +20,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Bezier" />
+            <option value="$PROJECT_DIR$/TouchLevel" />
             <option value="$PROJECT_DIR$/WeatherAnimation" />
             <option value="$PROJECT_DIR$/Z_Utils" />
             <option value="$PROJECT_DIR$/app" />
