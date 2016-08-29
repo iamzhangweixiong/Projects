@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         activityMainBinding.changeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                activityMainBinding.getUser().setAge("333");
-                activityMainBinding.getUser().setFirstName("change");
-                activityMainBinding.getUser().setLastName("name");
 
             }
         });
