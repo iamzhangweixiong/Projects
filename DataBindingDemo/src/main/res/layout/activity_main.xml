@@ -3,6 +3,10 @@
 
     <data>
 
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
         <variable
             name="user"
             type="com.zhangwx.myapplication.Bean.User" />
@@ -25,13 +29,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{user.lastName}" />
+            android:text="@{user.lastName ?? user.firstName}" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{user.age}" />
+            android:text="@{user.age}"
+            android:visibility="@{TextUtils.isEmpty(user.age) ? View.GONE : View.VISIBLE}" />
 
+        <Button
+            android:id="@+id/changeBtn"
+            android:text="CHANGE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 

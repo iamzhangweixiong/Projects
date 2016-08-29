@@ -1,13 +1,15 @@
 package com.zhangwx.myapplication.Bean;
 
+import android.databinding.BaseObservable;
+
 /**
  * Created by zhangwx on 2016/8/25.
  */
-public class User {
+public class User extends BaseObservable {
 
-    private final String firstName;
-    private final String lastName;
-    private final String age;
+    private String firstName;
+    private String lastName;
+    private String age;
 
     public User(String firstName, String lastName, String age) {
         this.firstName = firstName;
@@ -26,4 +28,17 @@ public class User {
     public String getAge() {
         return this.age;
     }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
+
