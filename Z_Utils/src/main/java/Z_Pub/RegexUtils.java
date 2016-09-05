@@ -9,12 +9,13 @@ import java.util.regex.Pattern;
  * </p>
  * Created by zhangwx on 2016/8/16.
  */
-public class RegexUtil {
+public class RegexUtils {
 
     private static final String REGEX_ID = "[1-9]\\d{16}[a-zA-Z0-9]{1}";
     private static final String REGEX_URL = "(https?://(w{3}\\.)?)?\\w+\\.\\w+(\\.[a-zA-Z]+)*(:\\d{1,5})?(/\\w*)*(\\??(.+=.*)?(&.+=.*)?)?";
     private static final String REGEX_DIGIT = "\\-?[1-9]\\d+";
     private static final String REGEX_EMAIL = "\\w+@\\w+\\.[a-z]+(\\.[a-z]+)?";
+    private static final String REGEX_EMAIL2 = "\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
     private static final String REGEX_PHONE = "(\\+\\d+)?(\\d{3,4}\\-?)?\\d{7,8}$";
     private static final String REGEX_DOMAIN = "(?<=http://|\\.)[^.]*?\\.(com|cn|net|org|biz|info|cc|tv)";
     private static final String REGEX_MOBILE = "(\\+\\d+)?1[3458]\\d{9}$";
