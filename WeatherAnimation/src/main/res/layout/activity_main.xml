@@ -6,8 +6,13 @@
     android:background="#588ddb"
     tools:context="com.zhangwx.myapplication.MainActivity">
 
-    <com.zhangwx.myapplication.view.CapsuleView
+    <!--<com.zhangwx.myapplication.view.CapsuleView
         android:id="@+id/baseview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.zhangwx.myapplication.view.WaveView
+        android:id="@+id/waveview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

@@ -71,8 +71,8 @@ public class CapsuleView extends View {
 //        sunnyview.draw(canvas);
 //        snowview.draw(canvas);
 //        Overcastview.draw(canvas);
-        testView.draw(canvas);
-        postInvalidateDelayed(8);
+//        testView.draw(canvas);
+//        postInvalidateDelayed(8);
 
 
     }
