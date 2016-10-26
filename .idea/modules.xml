@@ -9,7 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/WeatherAnimation/WeatherAnimation.iml" filepath="$PROJECT_DIR$/WeatherAnimation/WeatherAnimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Z_Utils/Z_Utils.iml" filepath="$PROJECT_DIR$/Z_Utils/Z_Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/argb_shift/argb_shift.iml" filepath="$PROJECT_DIR$/argb_shift/argb_shift.iml" />
       <module fileurl="file://$PROJECT_DIR$/WeatherAnimation/rainanimation.iml" filepath="$PROJECT_DIR$/WeatherAnimation/rainanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rx/rx.iml" filepath="$PROJECT_DIR$/rx/rx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screen_shot/screen_shot.iml" filepath="$PROJECT_DIR$/screen_shot/screen_shot.iml" />
     </modules>
   </component>
 </project>

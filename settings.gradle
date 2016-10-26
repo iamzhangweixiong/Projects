@@ -1,1 +1,1 @@
-include ':app', ':Bezier', ':Z_Utils', ':TouchLevel', ':DataBindingDemo',':WeatherAnimation'
+include ':app', ':Bezier', ':Z_Utils', ':TouchLevel', ':DataBindingDemo', ':WeatherAnimation', ':rx', ':screen_shot', ':argb_shift'

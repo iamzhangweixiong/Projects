@@ -15,6 +15,9 @@
             <option value="$PROJECT_DIR$/WeatherAnimation" />
             <option value="$PROJECT_DIR$/Z_Utils" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/argb_shift" />
+            <option value="$PROJECT_DIR$/rx" />
+            <option value="$PROJECT_DIR$/screen_shot" />
           </set>
         </option>
         <option name="myModules">
@@ -26,6 +29,9 @@
             <option value="$PROJECT_DIR$/WeatherAnimation" />
             <option value="$PROJECT_DIR$/Z_Utils" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/argb_shift" />
+            <option value="$PROJECT_DIR$/rx" />
+            <option value="$PROJECT_DIR$/screen_shot" />
           </set>
         </option>
       </GradleProjectSettings>

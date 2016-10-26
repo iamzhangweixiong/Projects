@@ -17,7 +17,6 @@ import com.zhangwx.myapplication.utils.DimenUtils;
  */
 public class SimplePathView extends View {
 
-
     private Paint mPaint;
     private Path mPath;
     private float X1 = DimenUtils.getWindowWidth() / 10;

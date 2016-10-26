@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">screen_shot</string>
+    <string name="action_settings">Settings</string>
+
+    <item name="CACHE_BITMAP_KEY" type="id" />
+    <item name="CACHE_BITMAP_DIRTY_KEY" type="id" />
+</resources>
