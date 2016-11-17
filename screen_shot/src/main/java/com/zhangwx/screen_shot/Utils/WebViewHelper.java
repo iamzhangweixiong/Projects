@@ -84,4 +84,10 @@ public class WebViewHelper {
         return bitmap;
     }
 
+
+    public void cleanWebViewContent(WebView webView) {
+        if (webView != null) {
+            webView.loadUrl("about:blank");
+        }
+    }
 }
