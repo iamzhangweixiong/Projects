@@ -18,9 +18,17 @@ android {
         }
     }
 }
+String PLATFORMS_VER = "android-24"
+String SDK_DIR = System.getenv("ANDROID_HOME")
+if (SDK_DIR == null) {
+    Properties props = new Properties()
+    props.load(new FileInputStream(project.rootProject.file("local.properties")))
+    SDK_DIR = props.get('sdk.dir');
+}
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:design:24.0.0'
     compile 'com.android.support:appcompat-v7:24.0.0'
+    provided files("${SDK_DIR}/platforms/${PLATFORMS_VER}/data/layoutlib.jar")
 }

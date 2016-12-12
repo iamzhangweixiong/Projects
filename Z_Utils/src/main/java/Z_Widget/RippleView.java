@@ -27,6 +27,8 @@ import com.zhangwx.myapplication.R;
  * mRippleview.setRippleDuration(200);
  * mRippleview.setRippleColor(R.color.colorAccent);
  * mRippleview.setRippleType(RippleView.RippleType.RECTANGLE);
+ * mRippleview.setZooming(true);
+ * mRippleview.setZoomScale(3F);
  */
 public class RippleView extends RelativeLayout {
 
