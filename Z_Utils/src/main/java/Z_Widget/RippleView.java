@@ -40,7 +40,7 @@ public class RippleView extends RelativeLayout {
     private int frameRate = 10;
     private int timerEmpty = 0;
     private int rippleAlpha = 90;
-    private int rippleColor = 0xFFFFFF;
+    private int rippleColor = 0xF7777F;
     private int rippleDuration = 400;
     private int durationEmpty = -1;
     private float radiusMax = 0;
@@ -91,7 +91,7 @@ public class RippleView extends RelativeLayout {
 
         final TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.RippleView);
         rippleColor = typedArray.getColor(R.styleable.RippleView_rv_color, rippleColor);
-        rippleType = typedArray.getInt(R.styleable.RippleView_rv_type, 0);
+        rippleType = typedArray.getInt(R.styleable.RippleView_rv_type, 2);
         hasToZoom = typedArray.getBoolean(R.styleable.RippleView_rv_zoom, false);
         isCentered = typedArray.getBoolean(R.styleable.RippleView_rv_centered, false);
         rippleDuration = typedArray.getInteger(R.styleable.RippleView_rv_rippleDuration, rippleDuration);

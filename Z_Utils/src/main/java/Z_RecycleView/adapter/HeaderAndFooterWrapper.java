@@ -1,10 +1,12 @@
-package Z_RecycleView;
+package Z_RecycleView.adapter;
 
 import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
+
+import Z_RecycleView.holder.CardHolder;
 
 /**
  * Created by zhangwx on 2016/10/31.

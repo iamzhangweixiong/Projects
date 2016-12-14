@@ -1,4 +1,4 @@
-package Z_RecycleView;
+package Z_RecycleView.holder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -41,10 +41,8 @@ public class CardHolder extends RecyclerView.ViewHolder {
         return holder;
     }
 
-    public static CardHolder createViewHolder(Context context,
-                                              ViewGroup parent, int layoutId) {
-        View itemView = LayoutInflater.from(context).inflate(layoutId, parent,
-                false);
+    public static CardHolder createViewHolder(Context context, ViewGroup parent, int layoutId) {
+        View itemView = LayoutInflater.from(context).inflate(layoutId, parent, false);
         CardHolder holder = new CardHolder(context, itemView);
         return holder;
     }
