@@ -48,8 +48,9 @@ public class ListDecoration extends RecyclerView.ItemDecoration {
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         super.getItemOffsets(outRect, view, parent, state);
         int position = parent.getChildAdapterPosition(view);
-        if (position == 0) { // 第一个 item 不显示分割线
-            outRect.set(0, 0, 0, 0);
+        int itemCount = parent.getAdapter().getItemCount();
+        if (position == 0 || position == itemCount - 1) { // 第一个和最后一个 item 不显示分割线
+            outRect.set(0, 0, 0, 60);
         } else {
             outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
         }

@@ -29,7 +29,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        if (holder instanceof CardHolder) {
+        if (holder instanceof CardHolder && feedData.size() > 0) {
             ((CardHolder) holder).setText(R.id.recycle_text, feedData.get(position).getText());
             ((CardHolder) holder).setImageDrawable(R.id.recycle_pic, feedData.get(position).getDrawable());
         }
@@ -46,6 +46,10 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     }
 
     public void addFeedData(List<ListData> data) {
+        feedData.addAll(data);
+    }
+
+    public void addFeedDataToTop(List<ListData> data) {
         feedData.addAll(0, data);
     }
 }
