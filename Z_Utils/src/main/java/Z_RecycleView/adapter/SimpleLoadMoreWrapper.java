@@ -22,7 +22,6 @@ public class SimpleLoadMoreWrapper<T> extends RecyclerView.Adapter<RecyclerView.
     }
 
     private boolean isLoadMorePosition(int position) {
-//        return position > 1 && position >= mInnerAdapter.getItemCount();
         return position >= mInnerAdapter.getItemCount();
     }
 
