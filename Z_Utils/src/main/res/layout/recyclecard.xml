@@ -23,7 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="2"
-            android:text="hello world"
             android:textColor="@android:color/white" />
     </LinearLayout>
 

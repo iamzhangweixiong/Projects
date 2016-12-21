@@ -1,10 +1,12 @@
 package Z_RecycleView.adapter;
 
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.zhangwx.myapplication.MyApplication;
 import com.zhangwx.myapplication.R;
 
 import java.util.ArrayList;
@@ -30,7 +32,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof CardHolder && feedData.size() > 0) {
-            ((CardHolder) holder).setText(R.id.recycle_text, feedData.get(position).getText());
+            ((CardHolder) holder).setText(R.id.recycle_text, Html.fromHtml(MyApplication.getContext().getString(R.string.recy)).toString());
             ((CardHolder) holder).setImageDrawable(R.id.recycle_pic, feedData.get(position).getDrawable());
         }
     }
