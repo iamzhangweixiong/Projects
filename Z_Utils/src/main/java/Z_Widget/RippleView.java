@@ -40,7 +40,7 @@ public class RippleView extends RelativeLayout {
     private int frameRate = 10;
     private int timerEmpty = 0;
     private int rippleAlpha = 90;
-    private int rippleColor = 0xF7777F;
+    private int rippleColor = 0xF3377F;
     private int rippleDuration = 400;
     private int durationEmpty = -1;
     private float radiusMax = 0;

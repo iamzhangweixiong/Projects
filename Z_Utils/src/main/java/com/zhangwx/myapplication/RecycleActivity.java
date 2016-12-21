@@ -33,8 +33,6 @@ public class RecycleActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycle);
-
-
         mDataService = new DataService();
         mhandler = new Handler(Looper.getMainLooper());
         mRecyclerView = $(R.id.recycleView);

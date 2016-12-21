@@ -7,9 +7,15 @@
     tools:context="com.zhangwx.myapplication.MainActivity">
 
     <Button
-        android:id="@+id/RecycleActivity"
+        android:id="@+id/RecycleBtn"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="RecycleActivity" />
+
+    <Button
+        android:id="@+id/ViewPagerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="ViewPagerActivity" />
 
 </LinearLayout>
