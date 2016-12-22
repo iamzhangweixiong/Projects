@@ -16,7 +16,7 @@ import Z_UI.ViewUtils;
  * Created by Administrator on 2016/12/22.
  */
 public class HandlerThreadActivity  extends AppCompatActivity {
-    private static final int MSG_UPDATE_INFO = 0x110;
+    private static final int MSG_UPDATE_INFO = 0x10;
     int i = 10;
     private TextView mText;
 
