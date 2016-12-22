@@ -1,5 +1,6 @@
 package Z_UI;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
@@ -81,8 +82,14 @@ public class ViewUtils {
         });
     }
 
-    public <T extends View> T $(int id, View parent) {
+    @SuppressWarnings("unchecked")
+    public static <T extends View> T $(View parent, int id) {
         return (T) parent.findViewById(id);
+    }
+
+    @SuppressWarnings("unchecked")
+    public static <T extends View> T $(Activity act, int id) {
+        return (T) act.findViewById(id);
     }
 
     public static final void showInputMethod(Context context) {

@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".RecycleActivity"/>
         <activity android:name=".ViewPagerActivity"/>
+        <activity android:name=".HandlerThreadActivity"/>
     </application>
 
 </manifest>
