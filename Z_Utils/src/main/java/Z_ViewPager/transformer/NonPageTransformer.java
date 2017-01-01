@@ -4,7 +4,7 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by Administrator on 2017/1/1.
+ * Created by zhangwx on 2017/1/1.
  */
 public class NonPageTransformer implements ViewPager.PageTransformer {
     @Override
