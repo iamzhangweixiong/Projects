@@ -20,6 +20,7 @@
         <activity android:name=".RecycleActivity"/>
         <activity android:name=".ViewPagerActivity"/>
         <activity android:name=".HandlerThreadActivity"/>
+        <activity android:name=".TouchTestActivity"/>
     </application>
 
 </manifest>

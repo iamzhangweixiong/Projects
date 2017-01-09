@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ViewUtils.$(this, R.id.RecycleBtn).setOnClickListener(this);
         ViewUtils.$(this, R.id.ViewPagerBtn).setOnClickListener(this);
         ViewUtils.$(this, R.id.HandlerThreadBtn).setOnClickListener(this);
+        ViewUtils.$(this, R.id.TouchTestBtn).setOnClickListener(this);
     }
 
 
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.HandlerThreadBtn:
                 intent.setClass(this, HandlerThreadActivity.class);
+                break;
+            case R.id.TouchTestBtn:
+                intent.setClass(this, TouchTestActivity.class);
                 break;
         }
         startActivity(intent);

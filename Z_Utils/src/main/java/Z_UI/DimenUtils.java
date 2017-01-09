@@ -132,7 +132,6 @@ public class DimenUtils {
         return 0;
     }
 
-
     public static int getScreenType() {
         if (mMetrics == null) {
             if (context != null) {
